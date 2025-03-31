@@ -1,0 +1,11 @@
+# Terraform directories and state files
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Terraform lock files (dependency management)
+.terraform.lock.hcl
+
+# Ignore variable files that may contain secrets
+*.tfvars
+*.tfvars.json
